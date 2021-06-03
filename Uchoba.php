@@ -64,9 +64,39 @@
 // $str = "$arr[0]+$arr[1], $arr[2]+$arr[3]";
 // var_dump($str);
 
+// Переменная $num может принимать одно из значений: 1, 2, 3 или 4. Если она имеет значение '1', то в переменную $result запишем 'зима', если имеет значение '2' – 'лето' и так далее. Решите задачу через switch-case.
+// $num = rand(1, 4);
+// $result = null;
+// switch ($num) {
+//     case 1:
+//         $result = 'Зима';
+//         break;
+//     case 2:
+//         $result = 'Весна';
+//         break;
+//     case 3:
+//         $result = 'Лето';
+//         break;
+//     case 4:
+//         $result = 'Осень';
+//         break;
+//     default :
+//         $result = 'Неверное значение!';
+// }
+// echo $result;
 
+// Дана строка 'html css php'. Найдите количество символов в этой строке.
+// $str = 'html css php';
+// $strLen = strlen($str);
+// echo $strLen;
 
+// Дана строка. Вырежите и выведите на экран последние 3 символа этой строки.
+// $str = 'html css php';
+// $newStr = substr($str, -3, 3);
+// echo $newStr;
 
-
-
-
+// Дана строка с буквами и цифрами, например, '1q2w3e4r5t6y7u8i9o0'. Удалите из нее все цифры. То есть в нашем случае должна получится строка 'qwertyuio'.
+// $str = '1q2w3e4r5t6y7u8i9o0';
+// $arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+// $newStr = str_replace($arr, '', $str);
+// echo $newStr;
