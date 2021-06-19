@@ -164,4 +164,3 @@
 //for ($i = 1; $i < 10; $i++) {
   //  echo '<br>' . str_repeat($i, $i);
 //}
-
